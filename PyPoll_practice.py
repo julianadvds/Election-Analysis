@@ -8,13 +8,14 @@ with open(file_to_load) as election_data:
     print(election_data)
 
 file_to_save = os.path.join("analysis","election_analysis.txt")
-outfile = open(file_to_save, "w")
-outfile.write("Hello world")
-outfile.close
+# outfile = open(file_to_save, "w")
+# outfile.write("Hello world")
+# outfile.close
 
 with open(file_to_save, "w") as txt_file:
-    txt_file.write("Hellow World")
-
+    txt_file.write("Arapahoe\nDenver\nJefferson")
+    # txt_file.write("Denver, ")
+    # txt_file.write("Jefferson")
 
 # election_data = open("Resources/election_results.csv", "r")
 # election_data.close()
